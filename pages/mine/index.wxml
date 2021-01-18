@@ -20,9 +20,9 @@
       <view class='menus-item' hover-class='btn-click-242' bindtap='toSuggestion'><text class='item-icon daoke-icon icon-yijianfankui'></text><text class='item-title'>意见反馈</text><text class='arrow daoke-icon icon-zhixiang'></text></view>
       <view class='menus-item' hover-class='btn-click-242' bindtap='contact'><text class='item-icon daoke-icon icon-icon-test'></text><text class='item-title'>联系客服</text><text class='arrow daoke-icon icon-zhixiang'></text></view>
     </view>
-    <view class='menus-bottom'>
+    <!-- <view class='menus-bottom'>
       <view class='menus-item' hover-class='btn-click-242' bindtap='toReceiveCoupon'><text class='item-icon daoke-icon icon-zhuanfa'></text><text class='item-title'>送红包给好友</text><text class='arrow daoke-icon icon-zhixiang'></text></view>
-    </view>
+    </view> -->
     <view class='exit color-85' wx:if="{{isLogin}}" bindtap='exit' hover-class='btn-click-242'>退出登录</view>
   </view>
 </view>
